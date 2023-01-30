@@ -1,0 +1,36 @@
+{
+  "byg:biomepedia_gift": {
+    "criteria": {
+      "tick": "2023-01-30 21:41:12 +0100"
+    },
+    "done": true
+  },
+  "byg:root": {
+    "criteria": {
+      "tick": "2023-01-30 21:41:12 +0100"
+    },
+    "done": true
+  },
+  "byg:adventure/oh_the_biomes_youll_go": {
+    "criteria": {
+      "byg:allium_fields": "2023-01-30 21:42:13 +0100",
+      "byg:prairie": "2023-01-30 21:42:00 +0100",
+      "byg:orchard": "2023-01-30 21:41:14 +0100",
+      "byg:basalt_barrera": "2023-01-30 21:42:29 +0100"
+    },
+    "done": false
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2023-01-30 21:41:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2023-01-30 21:41:58 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
