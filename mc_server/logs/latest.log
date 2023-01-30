@@ -1,0 +1,415 @@
+[21:09:22] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.13
+[21:09:23] [ForkJoinPool-1-worker-3/WARN]: Mod gravestones uses the version v1.13 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:09:23] [ForkJoinPool-1-worker-5/WARN]: Mod create uses the version 0.5.0g-796+1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0g'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:09:23] [main/INFO]: Loading 90 mods:
+	- appleskin 2.4.1+mc1.19
+	- architectury 6.4.62
+	- badpackets 0.2.1
+	- betteradvancements 0.2.2.142
+	- byg 2.0.0.13
+	- chiselsandbits 1.3.126
+	- cloth-basic-math 0.6.1 via cloth-config
+	- cloth-config 8.2.88
+	- com_electronwill_night-config_core 3.6.6 via byg
+	- com_electronwill_night-config_toml 3.6.6 via byg
+	- com_github_llamalad7_mixinextras 0.1.1 via porting_lib_base
+	- com_google_code_findbugs_jsr305 3.0.2 via create
+	- create 0.5.0g-796+1.19.2
+	- decorative_blocks 3.0.0
+	- dripstone_fluid_lib 2.0.1 via milk
+	- error_notifier 1.0.9 via roughlyenoughitems
+	- fabric-api 0.73.0+1.19.2
+	- fabric-api-base 0.4.14+6e0787e690 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.13+93d8cb8290 via fabric-api
+	- fabric-biome-api-v1 9.1.0+82db024a90 via fabric-api
+	- fabric-block-api-v1 1.0.2+e415d50e90 via fabric-api
+	- fabric-command-api-v1 1.2.15+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.2.0+413cbbc790 via fabric-api
+	- fabric-commands-v0 0.2.32+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.40+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.5.0+7c6cd14d90 via fabric-api
+	- fabric-convention-tags-v1 1.2.1+27265b3490 via fabric-api
+	- fabric-crash-report-info-v1 0.2.8+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.3.6+413cbbc790 via fabric-api
+	- fabric-dimensions-v1 2.1.34+0d0f210290 via fabric-api
+	- fabric-entity-events-v1 1.5.3+9244241690 via fabric-api
+	- fabric-events-interaction-v0 0.4.33+562bff6e90 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.34+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.24+b6b6abb490 via fabric-api
+	- fabric-item-api-v1 1.6.4+693ffc0590 via fabric-api
+	- fabric-item-groups-v0 0.3.37+9244241690 via fabric-api
+	- fabric-lifecycle-events-v1 2.2.3+1b46dc7890 via fabric-api
+	- fabric-loot-api-v2 1.1.11+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.14+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.6+93d8cb8290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.22+33fbc73890 via fabric-api
+	- fabric-networking-api-v1 1.2.10+10eb22f490 via fabric-api
+	- fabric-networking-v0 0.3.27+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.2.0+d8ef690890 via fabric-api
+	- fabric-particles-v1 1.0.13+4d0d570390 via fabric-api
+	- fabric-recipe-api-v1 1.0.0+413cbbc790 via fabric-api
+	- fabric-registry-sync-v0 0.9.31+9244241690 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.18+6e0787e690 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.10+4d0d570390 via fabric-api
+	- fabric-resource-conditions-api-v1 2.1.2+aae9039d90 via fabric-api
+	- fabric-resource-loader-v0 0.8.3+251d254a90 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.6+1cc24b1b90 via fabric-api
+	- fabric-transfer-api-v1 2.1.5+413cbbc790 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.3+08b73de490 via fabric-api
+	- fabricloader 0.14.13
+	- fake-player-api 0.5.0 via create
+	- forge_tags 3.0 via porting_lib
+	- forgeconfigapiport 4.2.6 via create
+	- gravestones v1.13
+	- java 17
+	- lithium 0.10.4
+	- milk 1.0.51 via create
+	- minecraft 1.19.2
+	- mm 2.3 via porting_lib_base
+	- org_lz4_lz4-pure-java 1.8.0 via chiselsandbits
+	- phosphor 0.8.1
+	- porting_lib 2.1.623+1.19.2 via create
+	- porting_lib_accessors 2.1.623+1.19.2 via porting_lib_extensions
+	- porting_lib_attributes 2.1.623+1.19.2 via porting_lib_extensions
+	- porting_lib_base 2.1.623+1.19.2 via porting_lib
+	- porting_lib_common 2.1.623+1.19.2 via porting_lib_extensions
+	- porting_lib_constants 2.1.623+1.19.2 via porting_lib_attributes
+	- porting_lib_entity 2.1.623+1.19.2 via porting_lib
+	- porting_lib_extensions 2.1.623+1.19.2 via porting_lib_transfer
+	- porting_lib_lazy_registration 2.1.623+1.19.2 via porting_lib
+	- porting_lib_model_generators 2.1.623+1.19.2 via porting_lib
+	- porting_lib_model_loader 2.1.623+1.19.2 via porting_lib_obj_loader
+	- porting_lib_models 2.1.623+1.19.2 via porting_lib
+	- porting_lib_networking 2.1.623+1.19.2 via porting_lib
+	- porting_lib_obj_loader 2.1.623+1.19.2 via porting_lib
+	- porting_lib_transfer 2.1.623+1.19.2 via porting_lib
+	- reach-entity-attributes 2.3.0 via create
+	- registrate-fabric 1.1.44-MC1.19.2 via create
+	- roughlyenoughitems 9.1.587
+	- saeculariacaudices 1.0.14 via chiselsandbits
+	- scena 1.0.92 via chiselsandbits
+	- serialization_hooks 0.3.26 via porting_lib_base
+	- terrablender 2.0.1.130
+	- wthit 5.13.5
+	- xaerominimap 22.17.1
+[21:09:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/mc_server/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[21:09:26] [main/INFO]: Compatibility level set to JAVA_16
+[21:09:26] [main/INFO]: Compatibility level set to JAVA_17
+[21:09:27] [main/WARN]: Reference map 'chisels-and-bits-fabric-refmap.json' for chiselsandbits.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:09:27] [main/INFO]: Loaded configuration file for Lithium: 106 options available, 0 override(s) found
+[21:09:30] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
+[21:09:31] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
+[21:09:57] [main/INFO]: Building unoptimized datafixer
+[21:10:08] [main/INFO]: BYG registries bootstrapped
+[21:10:20] [main/ERROR]: No data fixer registered for byg:boat
+[21:10:20] [main/ERROR]: No data fixer registered for byg:chest_boat
+[21:10:23] [main/INFO]: Initializing BYG network...
+[21:10:23] [main/INFO]: Initialized BYG network!
+[21:10:23] [main/INFO]: Oh The Biomes You'll Go (BYG) was initialized from "Fabric Mod Initializer"
+[21:10:23] [main/INFO]: Initialized chisels-and-bits for Fabric
+[21:10:37] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[21:10:37] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[21:10:37] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[21:10:37] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[21:10:38] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[21:10:39] [main/ERROR]: No data fixer registered for decorative_blocks:dummy
+[21:10:40] [main/INFO]: Definitely not up to no good
+[21:10:41] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[21:10:41] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[21:10:41] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[21:10:41] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[21:10:41] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[21:10:41] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[21:10:41] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[21:10:41] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[21:10:41] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[21:10:41] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[21:10:41] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[21:10:41] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items
+[21:10:41] [main/INFO]: Initialized Saecularia-Caudices
+[21:10:42] [main/ERROR]: General failure during configuration parsing
+com.google.gson.JsonParseException: Vector4f: settings.placement.color.success is not an array, or an object with x,y,z,w as parameters.
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationBuilder.lambda$defineVector4f$1(FabricConfigurationBuilder.java:93) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationValue.get(FabricConfigurationValue.java:44) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationSpec.forceGetAll(FabricConfigurationSpec.java:36) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationManager.lambda$createBuilder$5(FabricConfigurationManager.java:91) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationBuilder.setup(FabricConfigurationBuilder.java:245) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at mod.chiselsandbits.config.ClientConfiguration.<init>(ClientConfiguration.java:81) ~[chisels-and-bits-fabric-1.3.126.jar:?]
+	at mod.chiselsandbits.config.ChiselsAndBitsConfiguration.<init>(ChiselsAndBitsConfiguration.java:11) ~[chisels-and-bits-fabric-1.3.126.jar:?]
+	at mod.chiselsandbits.ChiselsAndBits.<init>(ChiselsAndBits.java:34) ~[chisels-and-bits-fabric-1.3.126.jar:?]
+	at mod.chiselsandbits.fabric.Fabric.lambda$new$2(Fabric.java:25) ~[chisels-and-bits-fabric-1.3.126.jar:?]
+	at com.communi.suggestu.scena.core.init.PlatformInitializationHandler.init(PlatformInitializationHandler.java:38) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at com.communi.suggestu.scena.fabric.Fabric.onInitialize(Fabric.java:20) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:62) [fabric-loader-0.14.13.jar:?]
+	at net.minecraft.server.Main.main(Main.java:101) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.13-launcher.0.11.1.jar:0.11.1]
+[21:10:42] [main/ERROR]: General failure during configuration parsing
+com.google.gson.JsonParseException: Vector4f: settings.placement.color.not-fitting is not an array, or an object with x,y,z,w as parameters.
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationBuilder.lambda$defineVector4f$1(FabricConfigurationBuilder.java:93) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationValue.get(FabricConfigurationValue.java:44) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationSpec.forceGetAll(FabricConfigurationSpec.java:36) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationManager.lambda$createBuilder$5(FabricConfigurationManager.java:91) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationBuilder.setup(FabricConfigurationBuilder.java:245) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at mod.chiselsandbits.config.ClientConfiguration.<init>(ClientConfiguration.java:81) ~[chisels-and-bits-fabric-1.3.126.jar:?]
+	at mod.chiselsandbits.config.ChiselsAndBitsConfiguration.<init>(ChiselsAndBitsConfiguration.java:11) ~[chisels-and-bits-fabric-1.3.126.jar:?]
+	at mod.chiselsandbits.ChiselsAndBits.<init>(ChiselsAndBits.java:34) ~[chisels-and-bits-fabric-1.3.126.jar:?]
+	at mod.chiselsandbits.fabric.Fabric.lambda$new$2(Fabric.java:25) ~[chisels-and-bits-fabric-1.3.126.jar:?]
+	at com.communi.suggestu.scena.core.init.PlatformInitializationHandler.init(PlatformInitializationHandler.java:38) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at com.communi.suggestu.scena.fabric.Fabric.onInitialize(Fabric.java:20) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:62) [fabric-loader-0.14.13.jar:?]
+	at net.minecraft.server.Main.main(Main.java:101) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.13-launcher.0.11.1.jar:0.11.1]
+[21:10:42] [main/ERROR]: General failure during configuration parsing
+com.google.gson.JsonParseException: Vector4f: settings.placement.color.missing-bits-or-space is not an array, or an object with x,y,z,w as parameters.
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationBuilder.lambda$defineVector4f$1(FabricConfigurationBuilder.java:93) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationValue.get(FabricConfigurationValue.java:44) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationSpec.forceGetAll(FabricConfigurationSpec.java:36) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationManager.lambda$createBuilder$5(FabricConfigurationManager.java:91) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at com.communi.suggestu.scena.fabric.platform.configuration.FabricConfigurationBuilder.setup(FabricConfigurationBuilder.java:245) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at mod.chiselsandbits.config.ClientConfiguration.<init>(ClientConfiguration.java:81) ~[chisels-and-bits-fabric-1.3.126.jar:?]
+	at mod.chiselsandbits.config.ChiselsAndBitsConfiguration.<init>(ChiselsAndBitsConfiguration.java:11) ~[chisels-and-bits-fabric-1.3.126.jar:?]
+	at mod.chiselsandbits.ChiselsAndBits.<init>(ChiselsAndBits.java:34) ~[chisels-and-bits-fabric-1.3.126.jar:?]
+	at mod.chiselsandbits.fabric.Fabric.lambda$new$2(Fabric.java:25) ~[chisels-and-bits-fabric-1.3.126.jar:?]
+	at com.communi.suggestu.scena.core.init.PlatformInitializationHandler.init(PlatformInitializationHandler.java:38) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at com.communi.suggestu.scena.fabric.Fabric.onInitialize(Fabric.java:20) ~[scena-1.0.92-c184efe59fbbad9a.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:62) [fabric-loader-0.14.13.jar:?]
+	at net.minecraft.server.Main.main(Main.java:101) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.13-launcher.0.11.1.jar:0.11.1]
+[21:10:42] [main/INFO]: Loaded block entity configuration.
+[21:10:42] [main/INFO]: Loaded block configuration.
+[21:10:43] [main/INFO]: Loaded chisel mode group configuration.
+[21:10:45] [main/INFO]: Loaded chisel mode configuration.
+[21:10:46] [main/INFO]: Loaded container type configuration.
+[21:10:46] [main/INFO]: Loaded item group configuration.
+[21:10:46] [main/INFO]: Loaded item configuration.
+[21:10:46] [main/INFO]: Loaded metadata key configuration.
+[21:10:46] [main/INFO]: Loaded model property configuration.
+[21:10:46] [main/INFO]: Loaded modification operation configuration.
+[21:10:46] [main/INFO]: Loaded modification operation group configuration.
+[21:10:46] [main/INFO]: Loaded pattern placement type configuration.
+[21:10:46] [main/INFO]: Loaded recipe serializer configuration.
+[21:10:46] [main/INFO]: Loaded tag configuration.
+[21:10:46] [main/INFO]: Registering recipe types.
+[21:10:46] [main/INFO]: Registering event handlers
+[21:10:55] [main/INFO]: Initialized scena-fabric
+[21:10:56] [main/INFO]: ".\config\byg\overworld\byg-overworld-biomes.json5" was read.
+[21:10:56] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[21:10:56] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[21:10:56] [main/INFO]: Registered region byg:region_0 to index 1 for type OVERWORLD
+[21:10:57] [main/INFO]: Registered region byg:region_1 to index 2 for type OVERWORLD
+[21:10:57] [main/INFO]: Registered region byg:region_2 to index 3 for type OVERWORLD
+[21:10:57] [main/INFO]: Registered region byg:region_3 to index 4 for type OVERWORLD
+[21:10:57] [main/INFO]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.plugin.core.WailaCore
+[21:10:57] [main/INFO]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaVanilla
+[21:10:57] [main/INFO]: [WTHIT] Plugin config reloaded
+[21:10:57] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[21:10:57] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:11:07] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[21:11:13] [main/ERROR]: Parsing error loading recipe create:cutting/compat/byg/mangrove_log
+com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_log'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:579) ~[server-intermediary.jar:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-fabric-0.5.0g-796+1.19.2.jar:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-fabric-0.5.0g-796+1.19.2.jar:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.method_8121(ProcessingRecipeSerializer.java:21) ~[create-fabric-0.5.0g-796+1.19.2.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.13-launcher.0.11.1.jar:0.11.1]
+[21:11:13] [main/ERROR]: Parsing error loading recipe create:cutting/compat/byg/mangrove_wood
+com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_wood'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:579) ~[server-intermediary.jar:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-fabric-0.5.0g-796+1.19.2.jar:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-fabric-0.5.0g-796+1.19.2.jar:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.method_8121(ProcessingRecipeSerializer.java:21) ~[create-fabric-0.5.0g-796+1.19.2.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.13-launcher.0.11.1.jar:0.11.1]
+[21:11:14] [main/ERROR]: Parsing error loading recipe create:cutting/compat/byg/stripped_mangrove_log
+com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_log'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:579) ~[server-intermediary.jar:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-fabric-0.5.0g-796+1.19.2.jar:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-fabric-0.5.0g-796+1.19.2.jar:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.method_8121(ProcessingRecipeSerializer.java:21) ~[create-fabric-0.5.0g-796+1.19.2.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.13-launcher.0.11.1.jar:0.11.1]
+[21:11:14] [main/ERROR]: Parsing error loading recipe create:cutting/compat/byg/stripped_mangrove_wood
+com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_wood'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:579) ~[server-intermediary.jar:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-fabric-0.5.0g-796+1.19.2.jar:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-fabric-0.5.0g-796+1.19.2.jar:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.method_8121(ProcessingRecipeSerializer.java:21) ~[create-fabric-0.5.0g-796+1.19.2.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.13.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.19.2-loader.0.14.13-launcher.0.11.1.jar:0.11.1]
+[21:11:14] [main/INFO]: Loaded 23 recipes
+[21:11:14] [main/INFO]: ".\config\byg\settings.json5" was read.
+[21:11:16] [main/INFO]: Loaded 2841 advancements
+[21:11:17] [main/INFO]: [REI] Reloading Plugin Manager [REIPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[21:11:17] [main/INFO]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[21:11:17] [main/INFO]: [REI] Reloaded Plugin Manager [REIPlugin] with 3 plugins in 474.2 ms.
+[21:11:17] [main/INFO]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 3 plugins in 73.30 ms.
+[21:11:17] [main/INFO]: [REI] Reloading Plugin Manager [REIPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[21:11:17] [main/INFO]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[21:11:17] [main/INFO]: [REI] Reloaded Plugin Manager [REIPlugin] with 3 plugins in 178.7 ms.
+[21:11:17] [main/INFO]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 3 plugins in 28.57 ms.
+[21:11:28] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[21:11:28] [main/INFO]: ".\config\byg\nether-biomes.json5" was read.
+[21:11:28] [main/ERROR]: Unable to find level stem/dimension "ResourceKey[minecraft:dimension / minecraft:the_nether]", this is most likely due to a world being moved across minecraft versions, Oh The Biomes You'll Go cannot support this operation.
+Skipping biome source repair....
+[21:11:28] [main/INFO]: ".\config\byg\end-biomes.json5" was read.
+[21:11:28] [main/ERROR]: Unable to find level stem/dimension "ResourceKey[minecraft:dimension / minecraft:the_end]", this is most likely due to a world being moved across minecraft versions, Oh The Biomes You'll Go cannot support this operation.
+Skipping biome source repair....
+[21:11:28] [main/INFO]: Applied 229 biome modifications to 123 of 138 new biomes in 112.5 ms
+[21:11:28] [main/INFO]: ".\config\byg\surface_rules\nether_surface_rules.json5" was read.
+[21:11:28] [main/INFO]: ".\config\byg\surface_rules\overworld_surface_rules.json5" was read.
+[21:11:28] [main/INFO]: ".\config\byg\surface_rules\end_surface_rules.json5" was read.
+[21:11:29] [Server thread/INFO]: [WTHIT] Plugin config reloaded
+[21:11:29] [Server thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event firing...
+[21:11:29] [Server thread/INFO]: ".\config\byg\growing-patterns.json5" was read.
+[21:11:29] [Server thread/INFO]: ".\config\byg\trades.json5" was read.
+[21:11:29] [Server thread/INFO]: ".\config\byg\biomepedia.json5" was read.
+[21:11:29] [Server thread/INFO]: Created compressed zip back up for ".\config\byg" in ".\config\byg\backups\last_working_configs_backup.zip"
+[21:11:29] [Server thread/INFO]: BYG: Compostible Blocks Added!
+[21:11:29] [Server thread/INFO]: BYG: Added tillables!
+[21:11:29] [Server thread/INFO]: BYG: Added Flammables!
+[21:11:29] [Server thread/INFO]: BYG: "Load Complete" Event Complete!
+[21:11:29] [Server thread/INFO]: BYG: Added strippable Blocks...
+[21:11:29] [Server thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event complete!
+[21:11:29] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[21:11:29] [Server thread/INFO]: Loading properties
+[21:11:29] [Server thread/INFO]: Default game type: SURVIVAL
+[21:11:29] [Server thread/INFO]: Generating keypair
+[21:11:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:11:30] [Server thread/INFO]: Using default channel type
+[21:11:31] [Server thread/INFO]: Preparing level "world"
+[21:11:32] [Server thread/ERROR]: Unable to find level stem/dimension "ResourceKey[minecraft:dimension / minecraft:the_nether]", this is most likely due to a world being moved across minecraft versions, Oh The Biomes You'll Go cannot support this operation.
+Not adding surface rules....
+[21:11:32] [Server thread/ERROR]: Unable to find level stem/dimension "ResourceKey[minecraft:dimension / minecraft:the_end]", this is most likely due to a world being moved across minecraft versions, Oh The Biomes You'll Go cannot support this operation.
+Not adding surface rules....
+[21:11:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:11:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:11:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:11:43] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[21:11:43] [Worker-Main-3/INFO]: Preparing spawn area: 9%
+[21:11:44] [Worker-Main-5/INFO]: Preparing spawn area: 48%
+[21:11:44] [Worker-Main-5/INFO]: Preparing spawn area: 73%
+[21:11:45] [Worker-Main-5/INFO]: Preparing spawn area: 97%
+[21:11:45] [Server thread/INFO]: Time elapsed: 12526 ms
+[21:11:45] [Server thread/INFO]: Done (14.135s)! For help, type "help"
+[21:11:45] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[21:11:58] [User Authenticator #1/INFO]: UUID of player Tibi08 is 6d459f25-3c84-43a3-95db-e4ff88680997
+[21:11:58] [Server thread/INFO]: Tibi08[/127.0.0.1:51705] logged in with entity id 259 at (-59.520269721512925, 64.0, 115.15353427343065)
+[21:11:58] [Server thread/INFO]: Tibi08 joined the game
+[21:14:33] [Server thread/INFO]: Tibi08 lost connection: Disconnected
+[21:14:33] [Server thread/INFO]: Tibi08 left the game
+[21:14:45] [Server thread/INFO]: Stopping the server
+[21:14:45] [Server thread/INFO]: Stopping server
+[21:14:45] [Server thread/INFO]: Saving players
+[21:14:45] [Server thread/INFO]: Saving worlds
+[21:14:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:14:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:14:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
