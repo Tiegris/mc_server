@@ -10,7 +10,7 @@
 
     > IMPORTANT: Also do the optional steps
 
-1. Start your fabric installation once from the official ler, than stop it.
+1. Start your fabric installation once from the official launcher, than stop it.
 
 1. Navigate to your fabric installations folder and place the mods folder there from this repo.
 
